@@ -55,11 +55,12 @@ export default function Header() {
         <div className="rounded-lg">
             <Link href={"/"}>
                 <Image
-                    src={logo}
+                    src={"/logo-square.png"}
                     alt="Arochi Interiors Logo"
                     width={120}
+                    height={120}
                     quality={100}
-                    placeholder="blur"
+                    // placeholder="blur"
                     priority
                 />
             </Link>

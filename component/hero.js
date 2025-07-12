@@ -12,9 +12,10 @@ export default function Hero() {
             <div className='absolute z-20 top-0 left-0 w-full h-[170px] place-content-center justify-center py-8 px-10'>
                 <div className='flex place-content-center hover:scale-125 duration-300'>
                     <Image 
-                        src={logo}
+                        src={"/logo-icon-dark-transparent.png"}
                         alt='Arochi Interiors'
                         width={150}
+                        height={150}
                     />
                     <p className='text-7xl font-extrabold text-center font-[poppins] py-10'>Arochi Interiors</p>
                 </div>
@@ -31,9 +32,11 @@ export default function Hero() {
             <div className='absolute top-0 left-0 h-full bg-[#e4e3d3]'>
                 <Image 
                     className='w-[full] h-[350px]'
-                    src={house}
+                    src={"/portfolio/house.png"}
                     alt='house'
-                    placeholder='blur'
+                    width={3000}
+                    height={1000}
+                    // placeholder='blur'
                     
                 />
             </div>

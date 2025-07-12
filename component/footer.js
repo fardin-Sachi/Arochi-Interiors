@@ -41,9 +41,10 @@ export default function Footer() {
             </div>
             <div className='flex'>
                 <Image 
-                    src={mapMarker}
+                    src={"/map-marker.svg"}
                     alt='Company Location'
                     width={14}
+                    height={14}
                 />
                 <div className='px-2'>Address:</div>
             </div>
@@ -67,9 +68,10 @@ export default function Footer() {
                 <div className=''>
                     <Link href={"https://www.facebook.com/arochiinteriors/"}>
                         <Image 
-                            src={facebook}
+                            src={"/facebook.svg"}
                             alt='Company Facebook Page'
                             width={40}
+                            height={40}
                         />
                     </Link>
                 </div>
@@ -77,9 +79,10 @@ export default function Footer() {
                 <div>
                     <Link href={"https://www.youtube.com/@arochiinteriors/"}>
                         <Image 
-                            src={youtube}
+                            src={"/youtube.svg"}
                             alt='Company YouTube Channel'
                             width={40}
+                            height={40}
                         />
                     </Link>
                 </div>
@@ -87,9 +90,10 @@ export default function Footer() {
                 <div>
                     <Link href={"https://www.instagram.com/arochiinteriors/"}>
                         <Image 
-                            src={instagram}
+                            src={"/instagram.svg"}
                             alt='Company Instagram Page'
                             width={40}
+                            height={40}
                         />
                     </Link>
                 </div>
@@ -97,9 +101,10 @@ export default function Footer() {
                 <div>
                     <Link href={"https://www.linkedin.com/arochiinteriors/"}>
                         <Image 
-                            src={linkedin}
+                            src={"/linkedin.svg"}
                             alt='Company LinkedIn Page'
                             width={40}
+                            height={40}
                         />
                     </Link>
                 </div>
