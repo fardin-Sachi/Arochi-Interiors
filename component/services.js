@@ -1,11 +1,11 @@
-import bedroom2 from "@/public/portfolio/bedroom2.png"
-import office3 from "@/public/portfolio/office3.png"
-import hotel from "@/public/portfolio/hotel.png"
-import restaurant2 from "@/public/portfolio/restaurant2.png"
-import library4 from "@/public/portfolio/library4.png"
-import showroom from "@/public/portfolio/showroom.png"
+// import bedroom2 from "@/public/portfolio/bedroom2.png"
+// import office3 from "@/public/portfolio/office3.png"
+// import hotel from "@/public/portfolio/hotel.png"
+// import restaurant2 from "@/public/portfolio/restaurant2.png"
+// import library4 from "@/public/portfolio/library4.png"
+// import showroom from "@/public/portfolio/showroom.png"
 import ServiceCard from "./cards/serviceCard"
-import Image from "next/image"
+// import Image from "next/image"
 
 const serviceProvided = [
   {

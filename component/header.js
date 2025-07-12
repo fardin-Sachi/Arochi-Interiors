@@ -1,5 +1,5 @@
 import Image from "next/image"
-import logo from "@/public/logo-square.png" //Logo's Hex Val: #e4e3d3
+// import logo from "@/public/logo-square.png" //Logo's Hex Val: #e4e3d3
 import Link from "next/link"
 
 const navItems = [

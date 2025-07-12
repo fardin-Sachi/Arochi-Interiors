@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
-import facebook from '@/public/facebook.svg'
-import youtube from '@/public/youtube.svg'
-import instagram from '@/public/instagram.svg'
-import linkedin from '@/public/linkedin.svg'
-import mapMarker from '@/public/map-marker.svg'
+// import facebook from '@/public/facebook.svg'
+// import youtube from '@/public/youtube.svg'
+// import instagram from '@/public/instagram.svg'
+// import linkedin from '@/public/linkedin.svg'
+// import mapMarker from '@/public/map-marker.svg'
 import Link from 'next/link'
 
 export default function Footer() {

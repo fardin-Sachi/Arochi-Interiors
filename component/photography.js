@@ -1,12 +1,12 @@
 import Card from "./cards/card"
-import livingRoom2 from "@/public/portfolio/livingRoom2.png"
-import livingRoom3 from "@/public/portfolio/livingRoom3.png"
-import livingRoom4 from "@/public/portfolio/livingRoom4.png"
-import livingRoom5 from "@/public/portfolio/livingRoom5.png"
-import livingRoom6 from "@/public/portfolio/livingRoom6.png"
-import library3 from "@/public/portfolio/library3.png"
-import office2 from "@/public/portfolio/office2.png"
-import library2 from "@/public/portfolio/library2.png"
+// import livingRoom2 from "@/public/portfolio/livingRoom2.png"
+// import livingRoom3 from "@/public/portfolio/livingRoom3.png"
+// import livingRoom4 from "@/public/portfolio/livingRoom4.png"
+// import livingRoom5 from "@/public/portfolio/livingRoom5.png"
+// import livingRoom6 from "@/public/portfolio/livingRoom6.png"
+// import library3 from "@/public/portfolio/library3.png"
+// import office2 from "@/public/portfolio/office2.png"
+// import library2 from "@/public/portfolio/library2.png"
 
 
 export default function Photography() {

@@ -1,7 +1,7 @@
 import React from 'react'
-import house from '@/public/Portfolio/house.png'
+// import house from '@/public/Portfolio/house.png'
 import Image from 'next/image'
-import logo from "@/public/logo-icon-dark-transparent.png"
+// import logo from "@/public/logo-icon-dark-transparent.png"
 
 export default function Hero() {
   return (
