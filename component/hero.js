@@ -5,7 +5,7 @@ import logo from "@/public/logo-icon-dark-transparent.png"
 
 export default function Hero() {
   return (
-    <div className='h-[350px] pb-'>
+    <section className='h-[350px]'>
         <div className='relative'>
             
             {/* Text */}
@@ -40,7 +40,7 @@ export default function Hero() {
         </div>
         
         {/* <div className='h-32'></div> */}
-    </div>
+    </section>
   )
 }
 {/* <div className='flex flex-col items-center justify-center bg-scroll w-full'>

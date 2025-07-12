@@ -9,7 +9,7 @@ import Services from "@/component/services";
 
 export default function Home() {
   return (
-    <main>
+    <main className="overflow-hidden">
       <Header />
       <Hero />
       <Portfolio />

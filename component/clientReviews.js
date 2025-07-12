@@ -15,7 +15,7 @@ const reviews = [
 
 export default function ClientReviews() {
   return (
-    <div className="grid grid-col-3 py-10">
+    <section id="reviews" className="grid grid-col-3 py-10">
         <div className="hover:scale-115 duration-300">
             {/* Heading */}
             <div className='flex justify-center mt-[3px] mb-2'> 
@@ -64,6 +64,6 @@ export default function ClientReviews() {
 
                 )}
         </div>
-    </div>
+    </section>
   )
 }

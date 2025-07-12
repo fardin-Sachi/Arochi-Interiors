@@ -9,7 +9,7 @@ import Link from 'next/link'
 
 export default function Footer() {
   return (
-    <div className='flex bg-[#d3e4df] p-5 gap-x-20 h-full px-20'>
+    <section id="contact" className='flex bg-[#d3e4df] p-5 gap-x-20 h-full px-20'>
         {/* Company */}
         <div className='p-4'>
             <div className='text-2xl text-start pb-5 font-bold'>Company</div>
@@ -106,6 +106,6 @@ export default function Footer() {
             </div>
 
         </div>
-    </div>
+    </section>
   )
 }

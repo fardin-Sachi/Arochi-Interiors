@@ -1,6 +1,6 @@
 export default function AboutUs() {
   return (
-    <div className="pb-20 py-10">
+    <section id="about" className="pb-20 py-10">
       <div className="hover:scale-115 duration-300">
         <div className='flex justify-center mt-[3px] mb-2'> 
               <p className="text-5xl text-center font-bold font-[poppins]">About Us</p>
@@ -14,6 +14,6 @@ export default function AboutUs() {
           <br /><br />
           What truly distinguishes us is our dedication to combining functionality with artistic innovation. From the initial concept to the final execution, we infuse each design with precision, elegance, and a touch of bold creativity that transforms spaces into unforgettable experiences. Our collaborative approach fosters strong partnerships with clients, making them an integral part of the design journey. We don&apos;t simply create interiors; we create transformative environments that resonate with purpose and beauty, leaving a lasting impression.
       </p>
-    </div>
+    </section>
   )
 }

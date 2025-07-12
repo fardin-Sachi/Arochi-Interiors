@@ -10,33 +10,43 @@ const navItems = [
     },
     {
         id: 2,
-        title: "Service",
-        path: "/service",
+        title: "Portfolio",
+        path: "#portfolio",
     },
     {
         id: 3,
-        title: "Video Gallery",
-        path: "/videogallery",
+        title: "Photography",
+        path: "#photography",
     },
     {
         id: 4,
-        title: "Blog",
-        path: "/blog",
+        title: "Services",
+        path: "#service",
     },
     {
         id: 5,
-        title: "Shop",
-        path: "/shop",
+        title: "Reviews",
+        path: "#reviews",
     },
+    // {
+    //     id: 4,
+    //     title: "Blog",
+    //     path: "/blog",
+    // },
+    // {
+    //     id: 5,
+    //     title: "Shop",
+    //     path: "/shop",
+    // },
     {
         id: 6,
         title: "About Us",
-        path: "/about",
+        path: "#about",
     },
     {
         id: 7,
         title: "Contact",
-        path: "/contact",
+        path: "#contact",
     }
 ]
 export default function Header() {

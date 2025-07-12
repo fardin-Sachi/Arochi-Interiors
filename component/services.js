@@ -10,37 +10,37 @@ import Image from "next/image"
 const serviceProvided = [
   {
     id: 1,
-    imgsrc: bedroom2,
+    imgsrc: "/portfolio/bedroom2.png",
     altText: "Home Interior",
     description: "Arochi Interiors transforms your house into a warm, personalized sanctuary that reflects your style and meets your practical needs. From cozy living rooms to serene bedrooms, we create spaces that blend comfort, aesthetics, and functionality for a truly inviting home.",
   },
   {
     id: 2,
-    imgsrc: office3,
+    imgsrc: "/portfolio/office3.png",
     altText: "Office Interior",
     description: "Enhance productivity and foster collaboration with our office designs. We craft functional, innovative workspaces tailored to your business needs, ensuring an inspiring environment for your team.",
   },
   {
     id: 3,
-    imgsrc: hotel,
+    imgsrc: "/portfolio/hotel.png",
     altText: "Hotel Interior",
     description: "Elevate guest experiences with bespoke hotel interiors that merge luxury and hospitality. Our designs ensure comfort, elegance, and a memorable ambiance.",
   },
   {
     id: 4,
-    imgsrc: restaurant2,
+    imgsrc: "/portfolio/restaurant2.png",
     altText: "Restaurant Interior",
     description: "Set the perfect tone for your dining space with designs that captivate. From cozy cafes to upscale restaurants, we create interiors that harmonize with your culinary vision.",
   },
   {
     id: 5,
-    imgsrc: library4,
+    imgsrc: "/portfolio/library4.png",
     altText: "Library Interior",
     description: "Inspire learning and relaxation with thoughtfully designed libraries. Our approach balances calm aesthetics and optimal functionality for an ideal reading haven.",
   },
   {
     id: 6,
-    imgsrc: showroom,
+    imgsrc: "/portfolio/showroom.png",
     altText: "Showroom Interior",
     description: "Showcase your products with flair in a dynamic showroom environment. Our designs emphasize product appeal, customer engagement, and an unforgettable shopping experience.",
   },
@@ -48,7 +48,7 @@ const serviceProvided = [
 
 export default function Services() {
   return (
-    <div className='w-full container py-10'>
+    <section id="service" className='w-full container py-10'>
         <div className="hover:scale-115 duration-300">
           {/* Heading */}
           <div className='flex justify-center mt-[3px] mb-2'> 
@@ -62,10 +62,10 @@ export default function Services() {
           {/* Cards */}
           <div className='pt-10 grid grid-cols-3 gap-10 px-20'>
             {serviceProvided.map((item) => 
-              <ServiceCard imgsrc={item.imgsrc} altText={item.altText} description={item.description} key={item.imgsrc}/>
+              <ServiceCard imgsrc={item.imgsrc} altText={item.altText} description={item.description} key={item.id}/>
             )}
           </div>
-      </div>
+      </section>
   )
 }
 {/* <ServiceCard imgsrc={bedroom2} altText={"qawd"} description={"Arochi Interiors transforms your house into a warm, personalized sanctuary that reflects your style and meets your practical needs. From cozy living rooms to serene bedrooms, we create spaces that blend comfort, aesthetics, and functionality for a truly inviting home."} />
