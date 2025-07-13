@@ -18,10 +18,10 @@ Check out the live demo: [https://arochi-interiors.onrender.com/](https://arochi
 
 ## 📂 Project Structure
 
-- /app # Next.js pages
-- /components # Reusable React components
-- /public # Static assets
-- /app/globasl.css # Global styles and Tailwind setup
+- /app - Next.js pages
+- /components - Reusable React components
+- /public - Static assets
+- /app/globasl.css - Global styles and Tailwind setup
 
 
 ## 🔧 Installation
