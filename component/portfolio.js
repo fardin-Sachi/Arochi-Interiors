@@ -23,7 +23,7 @@ export default function Portfolio() {
       <div className="pt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-8 lg:gap-10">
         <Card imgsrc={"/portfolio/bedroom.png"} altText={"Bedroom"} />
         <Card imgsrc={"/portfolio/bathroom.png"} altText={"Bathroom"} />
-        <Card imgsrc={"/portfolio/Kitchen.png"} altText={"Kitchen"} />
+        <Card imgsrc={"/portfolio/kitchen.png"} altText={"Kitchen"} />
         <Card imgsrc={"/portfolio/balcony.png"} altText={"Balcony"} />
         <Card imgsrc={"/portfolio/livingRoom.png"} altText={"Living Room"} />
         <Card imgsrc={"/portfolio/office.png"} altText={"Office"} />
