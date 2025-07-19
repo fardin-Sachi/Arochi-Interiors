@@ -48,25 +48,31 @@ const serviceProvided = [
 
 export default function Services() {
   return (
-    <section id="service" className='w-full container py-10'>
-        <div className="hover:scale-115 duration-300">
-          {/* Heading */}
-          <div className='flex justify-center mt-[3px] mb-2'> 
-              <p className="text-5xl text-center font-bold font-[poppins]">Services</p>
-          </div>
-
-          {/* Underline */}
-          <hr className='w-52 h-1 mx-auto bg-gray-400 border-0 rounded-sm' />
+    <section id="service" className="w-full container py-10 px-4 sm:px-6 md:px-10 lg:px-20">
+      <div className="hover:scale-90 transition-transform duration-500">
+        {/* Heading */}
+        <div className="flex justify-center mt-1 mb-2"> 
+          <p className="text-4xl sm:text-5xl text-center font-bold font-[poppins]">Services</p>
         </div>
 
-          {/* Cards */}
-          <div className='pt-10 grid grid-cols-3 gap-10 px-20'>
-            {serviceProvided.map((item) => 
-              <ServiceCard imgsrc={item.imgsrc} altText={item.altText} description={item.description} key={item.id}/>
-            )}
-          </div>
-      </section>
+        {/* Underline */}
+        <hr className="w-52 h-1 mx-auto bg-gray-400 border-0 rounded-sm" />
+      </div>
+
+      {/* Cards */}
+      <div className="pt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-10">
+        {serviceProvided.map((item) => (
+          <ServiceCard
+            key={item.id}
+            imgsrc={item.imgsrc}
+            altText={item.altText}
+            description={item.description}
+          />
+        ))}
+      </div>
+    </section>
   )
 }
+
 {/* <ServiceCard imgsrc={bedroom2} altText={"qawd"} description={"Arochi Interiors transforms your house into a warm, personalized sanctuary that reflects your style and meets your practical needs. From cozy living rooms to serene bedrooms, we create spaces that blend comfort, aesthetics, and functionality for a truly inviting home."} />
               <ServiceCard imgsrc={bedroom2} altText={"qawd"} description={"dfqawdad"} /> */}

@@ -5,44 +5,48 @@ import Image from 'next/image'
 
 export default function Hero() {
   return (
-    <section className='h-[350px]'>
-        <div className='relative'>
-            
-            {/* Text */}
-            <div className='absolute z-20 top-0 left-0 w-full h-[170px] place-content-center justify-center py-8 px-10'>
-                <div className='flex place-content-center hover:scale-125 duration-300'>
-                    <Image 
-                        src={"/logo-icon-dark-transparent.png"}
-                        alt='Arochi Interiors'
-                        width={150}
-                        height={150}
-                    />
-                    <p className='text-7xl font-extrabold text-center font-[poppins] py-10'>Arochi Interiors</p>
-                </div>
-                <p className='text-4xl font-semibold text-center font-[poppins] hover:scale-125 duration-300'>Your Dream Space, Our Creative Passion</p>
-            </div>
+    <section className="relative w-full h-[250px] sm:h-[300px] md:h-[350px] lg:h-[400px] overflow-hidden">
+      
+      {/* Background Image */}
+      <div className="absolute top-0 left-0 w-full h-full z-0">
+        <Image
+          src="/portfolio/house.png"
+          alt="House"
+          fill
+          className="object-cover"
+          priority
+          quality={75}
+          placeholder="blur"
+          blurDataURL="/portfolio/house.png"
+          sizes="100vw"
+        />
+      </div>
 
-            
-            {/* Overlay */}
-            <div className='flex flex-col absolute z-10 top-0 left-0 w-full bg-[#e4e3d3]/60 h-[350px]'>
+      {/* Overlay */}
+      <div className="absolute top-0 left-0 w-full h-full bg-[#e4e3d3]/60 z-10" />
 
-            </div>
+      {/* Hero Content */}
+      <div className="relative z-20 flex flex-col items-center justify-center text-center px-4 py-6 h-full">
 
-            {/* Image: House */}
-            <div className='absolute top-0 left-0 h-full bg-[#e4e3d3]'>
-                <Image 
-                    className='w-[full] h-[350px]'
-                    src={"/portfolio/house.png"}
-                    alt='house'
-                    width={3000}
-                    height={1000}
-                    // placeholder='blur'
-                    
-                />
-            </div>
+        {/* Logo + Title Row */}
+        <div className="flex items-center justify-center gap-6 flex-wrap hover:scale-105 transition-transform duration-500 z-20">
+          <Image
+            src="/logo-icon-dark-transparent.png"
+            alt="Arochi Interiors"
+            width={140}
+            height={140}
+            className="w-[90px] sm:w-[110px] md:w-[130px]"
+          />
+          <h1 className="font-[poppins] font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
+            Arochi Interiors
+          </h1>
         </div>
-        
-        {/* <div className='h-32'></div> */}
+        <br /><br />
+        {/* Subtitle */}
+        <p className="mt-4 font-[poppins] font-semibold text-lg sm:text-xl md:text-2xl lg:text-3xl hover:scale-90 transition-transform duration-700 z-10">
+          Your Dream Space, Our Creative Passion
+        </p>
+      </div>
     </section>
   )
 }
